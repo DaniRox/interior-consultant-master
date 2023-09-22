@@ -1,0 +1,6 @@
+.div-profile{
+    margin-bottom: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap');
+
+:root{
+    --montserrat: 'Montserrat', sans-serif;
+    --crimson: 'Crimson Pro', serif;
+    --lora: 'Lora', serif;
+}
+
+.txt--montserrat{
+    font-family: var(--montserrat);
+}
+
+.txt--crimson{
+    font-family: var(--crimson);
+}
+
+.txt--lora{
+    font-family: var(--lora);
+}
+
+.txt--xs{
+    font-size: 0.7rem;
+}
+
+.txt--s{
+    font-size: 0.8rem;
+}
+
+.txt--m{
+    font-size: 1rem;
+}
+
+.txt--l{
+    font-size: 1.2rem;
+}
+
+.txt--xl{
+    font-size: 2rem;
+}
+
+.txt--light{
+    font-weight: 200;
+}
+
+.txt--regular{
+    font-weight: 400;
+}
+
+.txt--medium{
+    font-weight: 500;
+}
+
+.txt--bold{
+    font-weight: 700;
+}
+
+.txt--upper{
+    text-transform: uppercase;
+}

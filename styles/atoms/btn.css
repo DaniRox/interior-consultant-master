@@ -1,0 +1,13 @@
+#btn-menu-nav {
+    padding: 1rem 1rem 1rem 1.5rem;
+    display: flex;
+    z-index: 2;
+    position: fixed;
+    right: 1rem;
+}
+
+@media only screen and (min-width: 770px) {
+    #btn-menu-nav {
+        display: none;
+    }  
+}

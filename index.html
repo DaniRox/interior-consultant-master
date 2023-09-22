@@ -20,76 +20,101 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- styles -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <!-- protons -->
+    <link rel="stylesheet" href="./styles/protons/colors.css">
+    <link rel="stylesheet" href="./styles/protons/img.css">
+    <link rel="stylesheet" href="./styles/protons/links.css">
+    <link rel="stylesheet" href="./styles/protons/logo.css">
+    <link rel="stylesheet" href="./styles/protons/texts.css">
+    <!-- atoms -->
+    <link rel="stylesheet" href="./styles/atoms/div-description.css">
+    <link rel="stylesheet" href="./styles/atoms/div-img-profile.css">
+    <link rel="stylesheet" href="./styles/atoms/menu-links.css">
+    <!-- molecules -->
+    <link rel="stylesheet" href="./styles/molecules/div-img.css">
+    <link rel="stylesheet" href="./styles/molecules/div-text.css">
+    <link rel="stylesheet" href="./styles/molecules/footer.css">
+    <link rel="stylesheet" href="./styles/molecules/txt-profile.css">
+    <link rel="stylesheet" href="./styles/molecules/div-profile.css">
+    <link rel="stylesheet" href="./styles/molecules/menu.css">
+    <link rel="stylesheet" href="./styles/molecules/menu-nav.css">
+    <!-- organisms -->
+    <link rel="stylesheet" href="./styles/organisms/nav.css">
+    <!-- templates -->
+    <link rel="stylesheet" href="./styles/templates/main.css">
 
     <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
   </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+  <body class="background--dark">
+
+    <header>
+
+      <nav class="nav">
+
+        <div class="menu">
+
+          <div class="logo">
+            <span class="txt-logo txt--montserrat color--white txt--upper">this interior</span>
+          </div>
+
+          <img src="assets/menu_FILL0_wght400_GRAD0_opsz24.svg" alt="" class="btn-menu-nav" id="btn-menu-nav">
+
+        </div>
+
+        <div class="menu-nav background--dark" id="menu-nav">
+          <div class="menu-links">
+            <a href="" onclick="displayMenuDesktop()" class="link txt--montserrat txt--medium txt--l color--white">Home</a>
+            <a href="" onclick="displayMenuDesktop()" class="link txt--montserrat txt--medium txt--l color--white">Collection</a>
+            <a href="" onclick="displayMenuDesktop()" class="link txt--montserrat txt--medium txt--l color--white">About</a>
+            <a href="" onclick="displayMenuDesktop()" class="link txt--montserrat txt--medium txt--l color--white">Contact</a>
+          </div>
+
+        </div>
+
+      </nav>
+
+    </header>
+
+    <main>
+
+      <div class="div-text">
+        <h1 class="txt--lora txt--xl txt--medium color--white">Modern interior</h1>
+        <p class="txt--montserrat txt--m txt--regular color--white">A full-Service residential & commercial interior design and staging company offering professional organizing & eco-services.</p>
+        <span class="txt--montserrat txt--m txt--bold color--white">Read more</span>
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+      <div class="div-img">
+        <img src="assets/salon-estilo-mid-century-colores-calidos-ai-generativo.jpg" alt="salon estilo mid century" class="img-salon">
+
+        <div class="div-description background--dark">
+          <div class="div-profile">
+            <div class="div-img-profile">
+              <img src="./assets/selfie-retrato-videollamada.jpg" alt="" class="img-profile">
+            </div>
+            <div class="txt-profile">
+              <span class="txt--montserrat txt--s txt--medium color--white">Aliza Webber</span>
+              <span class="txt--montserrat txt--xs txt--medium color--white">Interior designer</span>
+            </div>
+          </div>
+
+          <h3 class="txt--lora txt--bold txt--l color--white">Designed in 2020 by Aliza Webber</h3>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+
+      <span class="txt--montserrat txt--m color--gray txt--regular txt--center">created by DaniRox - devChallenges.io</span>
+
+    </footer>
+
+    <script src="display-menu.js"></script>
+
   </body>
+
 </html>
