@@ -1,8 +1,17 @@
 .link{
     text-decoration: none;
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.5s;
 }
 
 .link:hover{
     border-bottom: 0.2rem solid white;
+}
+
+
+@media only screen and (min-width: 770px){
+    .link{
+        margin: 0rem;
+        padding-bottom: 0.5rem;
+    }
 }

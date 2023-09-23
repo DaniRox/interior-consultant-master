@@ -1,13 +1,22 @@
 #btn-menu-nav {
-    padding: 1rem 1rem 1rem 1.5rem;
+    width: 1.4rem;
+    padding: 1rem;
     display: flex;
     z-index: 2;
     position: fixed;
     right: 1rem;
 }
 
+.btn-menu-close{
+    width: 1.2rem;
+    position: absolute;
+    padding: 2rem;
+    top: 0;
+    right: 0;
+}
+
 @media only screen and (min-width: 770px) {
-    #btn-menu-nav {
+    #btn-menu-nav, .btn-menu-close {
         display: none;
     }  
 }

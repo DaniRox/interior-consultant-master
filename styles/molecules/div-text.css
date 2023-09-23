@@ -1,6 +1,7 @@
 .div-text{
     width: 16rem;
     height: 12rem;
+    margin-bottom: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
