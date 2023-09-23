@@ -6,6 +6,7 @@
 
 .link:hover{
     border-bottom: 0.2rem solid white;
+    transform: scale();
 }
 
 
