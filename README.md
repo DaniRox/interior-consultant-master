@@ -12,7 +12,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a href="https://legacy.devchallenges.io/solutions/tuzuUhJtXXSrgvc96rP0">
       Challenge
     </a>
   </h3>
